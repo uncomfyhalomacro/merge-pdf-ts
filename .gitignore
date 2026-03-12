@@ -1,0 +1,26 @@
+# dotenv environment variable files
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
+
+# npm + other dependencies
+node_modules/
+vendor/
+
+
+# Ignore Nix store, logs, etc.
+*.drv
+*.out
+*.nix-deps
+
+# Ignore direnv's environment files
+.direnv/
+
+# Other common files to ignore
+*.log
+*.swp
+*.DS_Store
+
+dist/
