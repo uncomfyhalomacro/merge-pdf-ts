@@ -33,7 +33,7 @@ const mergePdf = async (
 async function main() {
 	const program = new Command()
 		.arguments("<pdf1> <pdf2>")
-		.option("--outfile <pathToOutfile>")
+		.option("-o, --outfile <pathToOutfile>")
 		.action(mergePdf);
 	await program.parseAsync();
 }
