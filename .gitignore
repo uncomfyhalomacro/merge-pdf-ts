@@ -24,3 +24,7 @@ vendor/
 *.DS_Store
 
 dist/
+
+*.pdf
+*/**/*.pdf
+
